@@ -83,9 +83,9 @@ public class Car {
         NumberFormat nf = NumberFormat.getCurrencyInstance();
 
         return "Car{" +
-                "make: " + make + '\'' +
-                ", model: " + model + '\'' +
-                ", year:" + year + '\'' +
+                "make: " + make +
+                ", model: " + model +
+                ", year: " + year +
                 ", price: " + nf.format(price);
     }
 }
